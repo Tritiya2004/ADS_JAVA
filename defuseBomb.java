@@ -1,6 +1,9 @@
+import java.util.*;
+
 public class defuseBomb {
     public static void main(String[] args) {
         int[] arr={4,9,11,16};
+        System.out.println(Arrays.toString(decrypt(arr, 2)));
         
         
     }
